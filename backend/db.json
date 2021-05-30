@@ -1,0 +1,188 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Otavio",
+      "usuario": "Tsete",
+      "senha": "134",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 2,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 3,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 4,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 5,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 6,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 7,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 8,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 9,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 10,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 11,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 12,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 13,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 14,
+      "nome": "Teste 14",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 15,
+      "nome": "Teste 15",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 16,
+      "nome": "Teste 16",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 17,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 18,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 19,
+      "nome": "Teste",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 20,
+      "nome": "Teste 20",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 21,
+      "nome": "Teste 21",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 22,
+      "nome": "Teste 22",
+      "usuario": "teste",
+      "senha": "123",
+      "senha_original": "",
+      "nivel": "adm"
+    },
+    {
+      "id": 23,
+      "nome": "Novo",
+      "usuario": "novo",
+      "senha": "123456",
+      "senha_original": "",
+      "nivel": "Dev"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "appMysql",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Usuarios</ion-title>
+    <ion-buttons slot="primary" (click)="addUsuario()">
+      <ion-button>Novo
+        <ion-icon slot="end" name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-row class="azul-primary padding-lateral">
+  <ion-input placeholder="Buscar" [(ngModel)]="nome" type="search" (input)="filtrar(nome)"></ion-input>
+
+  <ion-buttons (click)="filtrar(nome)">
+    <ion-button>
+      <ion-icon slot="end" name="search"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+</ion-row>
+
+
+<ion-content class="ion-padding light">
+  <ion-list>
+    <ion-item-sliding *ngFor="let usuario of usuarios">
+
+      <ion-item-options side="start">
+        <ion-item-option (click)="editar(usuario.id)">Editar</ion-item-option>
+      </ion-item-options>
+
+      <ion-item>
+        {{usuario.nome}}
+      </ion-item>
+
+
+      <ion-item-options side="end">
+        <ion-item-option (click)="mostrarUsuario(usuario.id)">Mostrar</ion-item-option>
+        <ion-item-option (click)="excluir(usuario.id)" color="danger">Excluir</ion-item-option>
+      </ion-item-options>
+
+    </ion-item-sliding>
+  </ion-list>
+
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content pullingIcon="arrow-dropdown" refreshingSpinner="circles" refreshingText="Carregando...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <ion-infinite-scroll (ionInfinite)="loadData($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Carregando mais dados">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+
+</ion-content>

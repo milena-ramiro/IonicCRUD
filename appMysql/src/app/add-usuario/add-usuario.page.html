@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start" (click)="Usuario()">
+      <ion-button>
+        <ion-icon  name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>addUsuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+      <ion-label position="floating">
+        Nome
+      </ion-label>
+      <ion-input [(ngModel)]="usuario.nome"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">
+      Usuario
+    </ion-label>
+    <ion-input [(ngModel)]="usuario.usuario">
+
+    </ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="floating">
+    Senha
+  </ion-label>
+  <ion-input [(ngModel)]="usuario.senha">
+
+  </ion-input>
+</ion-item>
+
+
+
+<ion-item>
+  <ion-label>Nível</ion-label>
+  <ion-select placeholder="Selecione" [(ngModel)]="usuario.nivel">
+    <ion-select-option value="Adm">Admin</ion-select-option>
+    <ion-select-option value="Dev">Developer</ion-select-option>
+    <ion-select-option value="Designer">Designer</ion-select-option>
+    <ion-select-option value="Parceiro">Parceiro</ion-select-option>
+  </ion-select>
+</ion-item>
+
+<ion-button *ngIf="!usuario.id" color="success" expand="block" (click)="Cadastrar()">
+  Salvar
+</ion-button>
+
+<ion-button *ngIf="usuario.id" color="primary" expand="block" (click)="Editar()">
+  Editar
+</ion-button>
+
+</ion-content>
